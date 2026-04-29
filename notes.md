@@ -28,6 +28,35 @@
 
 ## Python Concepts
 
+## String Methods
+
+| Method/Function    | What it does                                |
+| ------------------ | ------------------------------------------- |
+| len()              | Counts total characters in a string         |
+| .upper()           | Converts string to uppercase                |
+| .lower()           | Converts string to lowercase                |
+| .replace(old, new) | Swaps one value for another                 |
+| str()              | Converts a value to a string — type casting |
+
+## F-strings
+
+Cleaner way to embed variables inside strings
+Example: f"My name is {first_name} and I am {age} years old."
+
+## Comments
+
+# Single line comment
+
+""" Multi line comment / docstring """
+Good comments explain WHY not WHAT
+
+## Key Concepts
+
+- String concatenation — joining strings with +
+- Methods belong to data types and are called with a dot — full_name.upper()
+- Functions are standalone — len(), print(), str(), type()
+- Type casting — converting one data type to another using str(), int(), float()
+
 ### Data Types
 
 | Type    | Example    | What it is               |
