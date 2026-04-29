@@ -81,6 +81,34 @@ Good comments explain WHY not WHAT
 | fatal: not a git repository                | git init not run in project folder | cd into project folder first, then git init    |
 | zsh: command not found: code               | VSCode shell command not installed | Command palette → Install code command in PATH |
 
+## Numbers & Math
+
+| Operator     | What it does                     | Example          |
+| ------------ | -------------------------------- | ---------------- |
+| + - \*       | Basic math                       | 10 + 3 = 13      |
+| /            | Division — always returns float  | 10 / 2 = 5.0     |
+| //           | Floor division — returns integer | 10 // 3 = 3      |
+| %            | Modulo — returns remainder       | 10 % 3 = 1       |
+| \*\*         | Exponent                         | 10 \*\* 3 = 1000 |
+| += -= \*= /= | Augmented assignment             | score += 10      |
+
+## Built-in Math Functions
+
+| Function           | What it does                      |
+| ------------------ | --------------------------------- |
+| round(n, decimals) | Round to decimal places           |
+| abs(n)             | Absolute value — removes negative |
+| max(...)           | Largest value                     |
+| min(...)           | Smallest value                    |
+| sum([...])         | Adds everything up                |
+
+## Key Reminders
+
+- / always returns float even if result is whole number
+- // returns integer — strips decimal completely
+- When in doubt use parentheses for order of operations
+- PEMDAS — Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
+
 ## Key Reminders
 
 - Always run pwd before git commands to check your location
