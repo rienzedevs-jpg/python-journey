@@ -19,11 +19,11 @@ To become genuinely, undeniably good at code. No shortcuts. No timetable. Just s
 
 ## Progress Log
 
-| Day   | What I learned                                            |
-| ----- | --------------------------------------------------------- |
-| Day 1 | Environment setup, Git, GitHub, SSH, first Python program |
-| Day 2 | Variables, data types, strings, numbers, math operators   |
-| Day 3 | Booleans, comparison operators, logical operators         |
+| Day   | What I learned                                                |
+| ----- | ------------------------------------------------------------- |
+| Day 1 | Environment setup, Git, GitHub, SSH, first Python program     |
+| Day 2 | Variables, data types, strings, numbers, math operators       |
+| Day 3 | Booleans, comparison operators, logical operators, user input |
 
 ## Built With
 

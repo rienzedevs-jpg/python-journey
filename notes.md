@@ -115,3 +115,52 @@ Good comments explain WHY not WHAT
 - Always run git init from INSIDE your project folder
 - Every project needs a .gitignore file
 - Add .DS_Store to .gitignore on every Mac project
+
+## Booleans & Comparison Operators
+
+| Operator | Meaning                  | Example |
+| -------- | ------------------------ | ------- |
+| >        | Greater than             | a > b   |
+| <        | Less than                | a < b   |
+| ==       | Equal to                 | a == b  |
+| !=       | Not equal to             | a != b  |
+| >=       | Greater than or equal to | a >= 10 |
+| <=       | Less than or equal to    | a <= 10 |
+
+## Logical Operators
+
+| Operator | Returns True when       | Example              |
+| -------- | ----------------------- | -------------------- |
+| and      | ALL conditions are True | age >= 18 and has_id |
+| or       | ANY condition is True   | cash or card         |
+| not      | Condition is False      | not is_banned        |
+
+## Key Reminders
+
+- Single = assigns a value
+- Double == compares two values
+- and is like a chain — one False breaks everything
+- or is like doors — only one needs to be open
+- Trace logical expressions step by step when debugging
+
+## VSCode Shortcuts
+
+| Shortcut    | What it does                             |
+| ----------- | ---------------------------------------- |
+| Command + / | Toggle comment on/off for selected lines |
+
+## User Input
+
+- input() pauses the program and waits for the user to type
+- input() ALWAYS returns a string — even if the user types a number
+- Use int() or float() to convert input to a number
+- Can combine in one line: age = int(input("How old are you? "))
+
+## Escape Characters
+
+| Character | What it does                  |
+| --------- | ----------------------------- |
+| \n        | New line                      |
+| \t        | Tab indentation               |
+| \\        | Literal backslash             |
+| \"        | Literal quote inside a string |
