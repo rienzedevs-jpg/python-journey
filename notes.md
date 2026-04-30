@@ -164,3 +164,30 @@ Good comments explain WHY not WHAT
 | \t        | Tab indentation               |
 | \\        | Literal backslash             |
 | \"        | Literal quote inside a string |
+
+## How to push to Github
+
+1. git add notes.md README.md
+2. git commit -m "updated notes and README for day 3"
+3. git push
+
+## Conditionals
+
+- if — first condition, always required
+- elif — additional conditions, optional, as many as needed
+- else — catches everything that didn't match, optional
+
+## Syntax
+
+if condition: # code runs if True
+elif another_condition: # code runs if this is True
+else: # code runs if nothing above matched
+
+## Key Reminders
+
+- Colon : opens the block
+- 4 spaces indentation — PEP 8 standard
+- Python reads top to bottom and stops at first True condition
+- Nested conditionals — if inside an if — keep shallow
+- Defensive programming — never trust user input
+- Only collect information when you actually need it
