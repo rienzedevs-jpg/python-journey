@@ -24,6 +24,7 @@ To become genuinely, undeniably good at code. No shortcuts. No timetable. Just s
 | Day 1 | Environment setup, Git, GitHub, SSH, first Python program                   |
 | Day 2 | Variables, data types, strings, numbers, math operators                     |
 | Day 3 | Booleans, comparison operators, logical operators, user input, conditionals |
+| Day 4 | Loops — for, while, break, continue, built number guessing game             |
 
 ## Built With
 
