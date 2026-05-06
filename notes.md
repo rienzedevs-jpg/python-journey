@@ -191,3 +191,95 @@ else: # code runs if nothing above matched
 - Nested conditionals — if inside an if — keep shallow
 - Defensive programming — never trust user input
 - Only collect information when you actually need it
+
+## Loops
+
+### For Loop
+
+for item in collection: # runs for each item
+
+for number in range(1, 6): # runs for numbers 1 to 5
+
+### Range
+
+range(5) # 0, 1, 2, 3, 4
+range(1, 6) # 1, 2, 3, 4, 5
+range(0, 10, 2) # 0, 2, 4, 6, 8 — step
+
+### While Loop
+
+while condition: # runs until condition is False # always needs an increment or way to become False
+
+### Loop Control
+
+- break — exits the loop completely
+- continue — skips current iteration, continues loop
+
+### Three ingredients of a safe while loop
+
+1. Starting value
+2. Condition that will eventually be False
+3. Something that changes each loop
+
+### Infinite Loop
+
+- Missing increment = infinite loop
+- Control + C to kill a running program
+
+## Key Reminders
+
+- for loop — use when you know how many times to repeat
+- while loop — use when you don't know, just repeat until something changes
+- Always validate user input before converting with int()
+- if not variable — checks if input is empty
+- Consistent 4 space indentation — mixing causes IndentationError
+
+## Functions
+
+### Basic Structure
+
+def function_name(parameter1, parameter2): # function body
+return value
+
+### Key Concepts
+
+- def — keyword to define a function
+- Parameters — placeholders defined in the function
+- Arguments — actual values passed when calling
+- return — sends a value back to the caller
+- None — what a function returns if no return statement
+
+### Default Parameters
+
+def greet(name, greeting="Hello"):
+return f"{greeting} {name}!"
+
+# If no greeting passed — uses "Hello" as default
+
+### print vs return
+
+- print — displays something, returns Nothing
+- return — gives a value back to be used elsewhere
+- In real programs almost everything uses return
+
+### DRY Principle
+
+Don't Repeat Yourself
+
+- If you write the same thing more than once — refactor
+- Convert/clean variables once at the top of the function
+
+### Single Responsibility Principle
+
+- Each function should do ONE thing and do it well
+- Break big functions into smaller focused ones
+- Makes code readable, testable, and maintainable
+
+### Returning Multiple Values
+
+def get_values():
+return num1, num2, operation
+
+# Unpack in one line
+
+num1, num2, operation = get_values()
