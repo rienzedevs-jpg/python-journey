@@ -283,3 +283,30 @@ return num1, num2, operation
 # Unpack in one line
 
 num1, num2, operation = get_values()
+
+## Scope
+
+### Two main types
+
+- Global — created outside functions, visible everywhere
+- Local — created inside functions, only visible inside that function
+
+### LEGB Rule — order Python searches for variables
+
+- L — Local — inside current function
+- E — Enclosing — inside any outer functions
+- G — Global — top level of file
+- B — Built-in — Python's built in names
+
+### global keyword
+
+- Allows modifying a global variable inside a function
+- Generally bad practice — use sparingly
+- Better alternative: pass values in as parameters, return them out
+
+### Key Reminders
+
+- Local variables disappear when function finishes
+- Same variable name inside and outside function = two separate variables
+- Functions should work with what they're given and return what they produce
+- State management is why OOP and classes exist — preview of Phase 5
