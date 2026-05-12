@@ -310,3 +310,53 @@ num1, num2, operation = get_values()
 - Same variable name inside and outside function = two separate variables
 - Functions should work with what they're given and return what they produce
 - State management is why OOP and classes exist — preview of Phase 5
+
+## Error Handling
+
+### Structure
+
+try: # code that might fail
+except ValueError: # runs if ValueError occurs
+except ZeroDivisionError: # runs if ZeroDivisionError occurs
+else: # runs ONLY if no error occurred
+finally: # ALWAYS runs — error or no error — land the plane
+
+### Key Concepts
+
+- except ErrorType as e — access the error message with e
+- raise ValueError("message") — raise your own errors
+- Multiple except blocks — handle different errors differently
+
+### Common Error Types
+
+| Error             | When it occurs                     |
+| ----------------- | ---------------------------------- |
+| ValueError        | Wrong type of value eg. int("abc") |
+| ZeroDivisionError | Dividing by zero                   |
+| NameError         | Variable doesn't exist             |
+| TypeError         | Wrong data type in operation       |
+| IndentationError  | Wrong indentation                  |
+
+### Input Cleaning
+
+- Always strip whitespace before validating: input().strip()
+- Never trust raw user input
+- Clean first, validate second
+
+### finally — Land the Plane
+
+- Always runs regardless of success or failure
+- Use for cleanup — closing files, connections, logging
+- Essential when working with files, databases, APIs
+
+### raise
+
+- Raise your own errors when Python won't catch them automatically
+- Makes errors explicit and catchable by the caller
+- Professional alternative to returning error strings
+
+### String Validation Methods
+
+- len(string) — check length
+- string.isalnum() — only letters and numbers
+- string.strip() — remove leading/trailing whitespace
